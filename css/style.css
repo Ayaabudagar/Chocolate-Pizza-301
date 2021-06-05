@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kurale&display=swap');
+body {
+    width: 80%;
+    margin: auto;
+}
+
+header {
+    height: 80px;
+}
+
+.logo {
+    margin: 10px 0px 0px 10px;
+}
+
+header div {
+    display: inline-block;
+}
+
+header p:nth-child(1) {
+    margin-top: 10px;
+    font-family: 'Yellowtail';
+    font-style: italic;
+    line-height: 40px;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+header p:nth-child(2) {
+    font-size: 10px;
+    color: gray;
+}
+
+.contact {
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.last {
+    padding-left: 10px;
+}
+
+hr {
+    height: 20px;
+    border: none;
+    background-image: url('../img/hr-img.png');
+    background-repeat: repeat-x;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 35px;
+}
+
+.pizza {
+    display: inline-block;
+    color: gray;
+    font-size: 10px;
+    margin-bottom: 25px;
+}
+
+.print {
+    float: right;
+}
+
+.print p {
+    display: inline-block;
+}
+
+.heroImg {
+    width: 100%;
+}
+
+.mainP {
+    margin-top: 30px;
+    color: gray;
+    font-size: 20px;
+    text-indent: 40px;
+    line-height: 25px;
+}
+
+#container {
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+#container img {
+    width: 100%;
+}
+
+.allList {
+    position: absolute;
+    top: 60px;
+    left: 80px;
+    font-family: 'Kurale', serif;
+    color: #464f41;
+    font-size: 25px;
+}
+
+.form1 {
+    display: inline-block;
+    line-height: 35px;
+}
+
+.form2 {
+    display: inline-block;
+    line-height: 35px;
+    margin-left: 120px;
+}
+
+.share {
+    display: inline-block;
+}
+
+.share p {
+    display: inline-block;
+    color: #536162;
+    margin-left: 30px;
+}
+
+button {
+    border: none;
+    background-color: #e9896a;
+    color: white;
+    width: 200px;
+    height: 50px;
+    margin-left: 120px;
+}
+
+footer {
+    height: 180px;
+    text-align: center;
+    color: gray;
+    padding-top: 100px;
+}
+
+footer img {
+    margin-bottom: 30px;
+}
+
+footer p {
+    line-height: 25px;
+}
